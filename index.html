@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<!--
+Author: Keenthemes
+Product Name: Metronic - Bootstrap 5 HTML, VueJS, React, Angular. Laravel, Asp.Net Core, Ruby on Rails, Spring Boot, Blazor, Django, Express.js, Node.js, Flask Admin Dashboard Theme & Template 
+Product Version: 8.1.6
+Purchase: https://1.envato.market/EA4JP
+Website: http://www.keenthemes.com
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+-->
+<html lang="en" data-theme-mode="light">
+  <!--begin::Head-->
+  <head>
+    <title>
+      Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for
+      HTML, VueJS, React, Angular. Laravel, Asp.Net Core, Ruby on Rails, Spring
+      Boot, Blazor, Django, Express.js, Node.js & Flask by Keenthemes
+    </title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="
+            The most advanced Bootstrap Admin Theme on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, 
+            Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask & Laravel versions. 
+            Grab your copy now and get life-time updates for free.
+        "
+    />
+    <meta
+      name="keywords"
+      content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular. Laravel, Asp.Net Core, Ruby on Rails, Spring Boot, Blazor, Django, Express.js, Node.js, Flask Admin Dashboard Theme & Template"
+    />
+    <meta property="og:url" content="https://keenthemes.com/metronic" />
+    <meta property="og:site_name" content="Keenthemes | Metronic" />
+    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+    <link
+      rel="shortcut icon"
+      href="/metronic8/demo19/assets/media/logos/favicon.ico"
+    />
+
+    <!--begin::Fonts(mandatory for all pages)-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"
+    />
+    <!--end::Fonts-->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Remember to include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+  <body
+    id="kt_body"
+    class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled"
+  >
+    <div class="d-flex flex-column flex-root">
+      <div class="page d-flex flex-column flex-column-fluid">
+        <div
+          id="kt_header"
+          class="header"
+          data-kt-sticky="true"
+          data-kt-sticky-name="header"
+          data-kt-sticky-offset="{default: '200px', lg: '300px'}"
+        >
+          <div
+            class="header-top-container container-xxl sabi d-flex justify-content-end"
+          >
+            <div class="d-flex align-items-center me-5">
+              <!--begin::Logo-->
+              <a href="/">
+                <!--begin::Desktop modes-->
+                <img
+                  alt="Logo"
+                  src="media/logo.png"
+                  class="d-none d-lg-inline-block h-100px"
+                />
+                <!--end::Desktop modes-->
+              </a>
+              <!--end::Logo-->
+            </div>
+          </div>
+          <div
+            class="header-menu-container d-flex align-items-stretch flex-stack w-100"
+          >
+            <!--begin::Menu wrapper-->
+            <div
+              class="header-menu container-xxl flex-column align-items-stretch flex-lg-row"
+            >
+              <!--begin::Menu-->
+              <div
+                class="menu menu-column menu-lg-row menu-rounded menu-active-bg menu-title-gray-800 menu-state-primary menu-arrow-gray-500 fw-semibold my-5 my-lg-0 align-items-stretch flex-grow-1 px-2 px-lg-0"
+                id="kt_header_menu"
+                data-kt-menu="true"
+              >
+                <!--begin:Menu item-->
+                <div
+                  class="menu-item menu-here-bg menu-lg-down-accordion me-0 me-lg-2"
+                  onClick="showTab(1);"
+                  id="menu-1"
+                >
+                  <!--begin:Menu link--><span class="menu-link py-3"
+                    ><span class="menu-title">Tableau de bord</span
+                    ><span class="menu-arrow d-lg-none"></span></span
+                  ><!--end:Menu link--><!--begin:Menu sub-->
+
+                  <!--end:Menu sub-->
+                </div>
+                <!--end:Menu item--><!--begin:Menu item-->
+                <div
+                  class="menu-item menu-lg-down-accordion me-0 me-lg-2"
+                  onClick="showTab(2);"
+                  id="menu-2"
+                >
+                  <!--begin:Menu link--><span class="menu-link py-3"
+                    ><span class="menu-title">Formations</span
+                    ><span class="menu-arrow d-lg-none"></span></span
+                  ><!--end:Menu link--><!--begin:Menu sub-->
+
+                  <!--end:Menu sub-->
+                </div>
+                <!--end:Menu item--><!--begin:Menu item-->
+                <div
+                  class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2"
+                  onClick="showTab(3);"
+                  id="menu-3"
+                >
+                  <!--begin:Menu link--><span class="menu-link py-3"
+                    ><span class="menu-title">Architecture</span
+                    ><span class="menu-arrow d-lg-none"></span></span
+                  ><!--end:Menu link--><!--begin:Menu sub-->
+
+                  <!--end:Menu sub-->
+                </div>
+                <!--end:Menu item--><!--begin:Menu item-->
+                <div
+                  class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2"
+                  onClick="showTab(4);"
+                  id="menu-4"
+                >
+                  <!--begin:Menu link--><span class="menu-link py-3"
+                    ><span class="menu-title">Design</span
+                    ><span class="menu-arrow d-lg-none"></span></span
+                  ><!--end:Menu link--><!--begin:Menu sub-->
+
+                  <!--end:Menu sub-->
+                </div>
+                <div
+                  class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2"
+                  onClick="showTab(5);"
+                  id="menu-5"
+                >
+                  <!--begin:Menu link--><span class="menu-link py-3"
+                    ><span class="menu-title">Contact</span
+                    ><span class="menu-arrow d-lg-none"></span></span
+                  ><!--end:Menu link--><!--begin:Menu sub-->
+
+                  <!--end:Menu sub-->
+                </div>
+                <!--end:Menu item-->
+              </div>
+              <!--end::Menu-->
+            </div>
+            <!--end::Menu wrapper-->
+          </div>
+        </div>
+        <div
+          class="wrapper d-flex flex-column flex-row-fluid container-xxl mb-5"
+          id="kt_wrapper"
+        >
+          <div class="d-flex flex-row flex-column-fluid align-items-stretch">
+            <div class="content flex-row-fluid" id="kt_content">
+              <div class="tab d-none" id="tab-1">
+                <div class="card">
+                  <div class="card-body p-lg-17">
+                    <div class="mb-18">
+                      <div class="mb-10">
+                        <div class="text-center mb-15">
+                          <h3 class="fs-2hx text-dark mb-5">
+                            À propos de nous
+                          </h3>
+                          <div class="fs-5 text-muted fw-semibold">
+                            Art design B-M-R est une société de design ouvert le
+                            1 janvier 2023 compris trois spécialité (
+                            Architecture d'intérieur, Design graphique, Centre
+                            de formation professionnel ) avec une équipe
+                            professionnelle dabs le domaine.
+                          </div>
+                        </div>
+                        <div class="overlay">
+                          <img
+                            class="w-100 card-rounded"
+                            src="media/home.jpg"
+                            alt=""
+                          />
+                          <div
+                            class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                          >
+                            <a class="btn btn-light-primary ms-3"
+                              >Contacter nous</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab d-none" id="tab-2">
+                <div class="card">
+                  <div class="card-body p-lg-17">
+                    <div class="row g-10">
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex1" class="modal">
+                            <img
+                              src="media/17-Tapestry.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+
+                          <a
+                            href="#ex1"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/17-Tapestry.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex2" class="modal">
+                            <img
+                              src="media/18-Peinture.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex2"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/18-Peinture.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex3" class="modal">
+                            <img
+                              src="media/19-PeintureAcrylique.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex3"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/19-PeintureAcrylique.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex4" class="modal">
+                            <img
+                              src="media/323531048_2515732998626167_7042400387093873670_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex4"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/323531048_2515732998626167_7042400387093873670_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex5" class="modal">
+                            <img
+                              src="media/323574502_712380770520752_2803790892395997295_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex5"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/323574502_712380770520752_2803790892395997295_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex6" class="modal">
+                            <img
+                              src="media/323969317_654885732986892_5399553969902732815_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex6"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/323969317_654885732986892_5399553969902732815_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex7" class="modal">
+                            <img
+                              src="media/324043516_2224400624424764_5574057287167405070_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex7"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324043516_2224400624424764_5574057287167405070_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex8" class="modal">
+                            <img
+                              src="media/324329427_741408757610935_6399287520350564611_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex8"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324329427_741408757610935_6399287520350564611_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex9" class="modal">
+                            <img
+                              src="media/324437324_3455276918131743_7867535437646456653_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex9"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324437324_3455276918131743_7867535437646456653_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex10" class="modal">
+                            <img
+                              src="media/324522849_2120450338139986_2875034870210054129_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex10"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324522849_2120450338139986_2875034870210054129_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex11" class="modal">
+                            <img
+                              src="media/324592296_560784249268364_1212556063751063595_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex11"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324592296_560784249268364_1212556063751063595_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex12" class="modal">
+                            <img
+                              src="media/324991721_3380250478876888_835835657459092799_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex12"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/324991721_3380250478876888_835835657459092799_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex13" class="modal">
+                            <img
+                              src="media/325037118_540908708099297_7552989961776227042_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a;
+                            href="#ex13"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/325037118_540908708099297_7552989961776227042_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a;>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex14" class="modal">
+                            <img
+                              src="media/325554422_556239966539466_6542770988639311778_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex14"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/325554422_556239966539466_6542770988639311778_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card-xl-stretch me-md-6">
+                          <div id="ex15" class="modal">
+                            <img
+                              src="media/326090682_1371397063691771_4491830469983843674_n.png"
+                              alt="aaa"
+                              class="h-100 w-100"
+                            />
+                          </div>
+                          <a
+                            href="#ex15"
+                            rel="modal:open"
+                            class="d-block overlay cursor-pointer"
+                            data-fslightbox="lightbox-hot-sales"
+                            ><div
+                              class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-175px"
+                              style="
+                                background-image: url('media/326090682_1371397063691771_4491830469983843674_n.png');
+                              "
+                            ></div>
+                            <div
+                              class="overlay-layer card-rounded bg-dark bg-opacity-25"
+                            >
+                              <i class="bi bi-eye-fill fs-2x text-white"></i
+                              ><span class="fs-2x text-white"
+                                ><svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                                  ></path>
+                                  <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+                                  ></path>
+                                </svg>
+                              </span></div
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab d-none" id="tab-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-px text-center pt-15 pb-15">
+                      <h2 class="fs-2x fw-bold mb-0">En cours ...</h2>
+                    </div>
+                    <div class="text-center pb-15 px-5">
+                      <img alt="" class="mw-100 h-200px h-sm-325px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab d-none" id="tab-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-px text-center pt-15 pb-15">
+                      <h2 class="fs-2x fw-bold mb-0">En cours ...</h2>
+                    </div>
+                    <div class="text-center pb-15 px-5">
+                      <img alt="" class="mw-100 h-200px h-sm-325px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab d-none" id="tab-5">
+                <div class="card">
+                  <div class="card-body p-lg-17">
+                    <div class="row g-5 mb-5">
+                      <div class="col-sm-6">
+                        <div
+                          class="text-center bg-light card-rounded d-flex flex-column justify-content-center p-10 h-100"
+                        >
+                          <h1 class="text-dark fw-bold my-5">Mobile</h1>
+                          <div class="text-gray-700 fw-semibold fs-2">
+                            +216 92535174
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div
+                          class="text-center bg-light card-rounded d-flex flex-column justify-content-center p-10 h-100"
+                        >
+                          <h1 class="text-dark fw-bold my-5">Email</h1>
+                          <div class="text-gray-700 fw-semibold fs-2">
+                            raniaboumessouer@gmail.com
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div
+                          class="text-center bg-light card-rounded d-flex flex-column justify-content-center p-10 h-100"
+                        >
+                          <span class="svg-icon svg-icon-3tx svg-icon-primary"
+                            ><svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                opacity="0.3"
+                                d="M18.0624 15.3453L13.1624 20.7453C12.5624 21.4453 11.5624 21.4453 10.9624 20.7453L6.06242 15.3453C4.56242 13.6453 3.76242 11.4453 4.06242 8.94534C4.56242 5.34534 7.46242 2.44534 11.0624 2.04534C15.8624 1.54534 19.9624 5.24534 19.9624 9.94534C20.0624 12.0453 19.2624 13.9453 18.0624 15.3453Z"
+                                fill="currentColor"
+                              ></path>
+                              <path
+                                d="M12.0624 13.0453C13.7193 13.0453 15.0624 11.7022 15.0624 10.0453C15.0624 8.38849 13.7193 7.04535 12.0624 7.04535C10.4056 7.04535 9.06241 8.38849 9.06241 10.0453C9.06241 11.7022 10.4056 13.0453 12.0624 13.0453Z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </span>
+                          <h1 class="text-dark fw-bold my-5">Adresse</h1>
+                          <div class="text-gray-700 fs-3 fw-semibold">
+                            Rue Sidi Bouakkazine, Houmet Souk Djerba, Medenine,
+                            Tunisia, 4180
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showTab(id) {
+        $(".menu-item").each(function (item) {
+          $(this).removeClass("here");
+        });
+        $("#menu-" + id).addClass("here");
+        $(".tab").hide();
+        $("#tab-" + id).removeClass("d-none");
+        $("#tab-" + id).show();
+      }
+      showTab(1);
+    </script>
+  </body>
+</html>
